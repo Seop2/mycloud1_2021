@@ -17,7 +17,7 @@
             <p>주요 뉴스</p>
           </div>
           <div class="message-body">
-            <figure class="image is-400x400">
+            <figure class="image is-128x128">
               <img src="https://imgnews.pstatic.net/image/011/2021/05/26/0003914807_001_20210526100201437.jpg" alt="오전 시황">
             </figure>
             [서울경제]
@@ -42,7 +42,7 @@
             <p>코스피란</p>
           </div>
           <div class="message-body">
-            <figure class="image is-400x400">
+            <figure class="image is-128x128">
               <img src="https://w.namu.la/s/1c7d9de3a8d1f1f43fd9b2fc630327797939b66b35622d37235862747296fd16fb3af0bfd9f2d851b66f3c093c1ece6aca1a504011f06690ee961387b82b4206a0c09888515af10baec60c43e88780c85218fcc1f80931b319222d8e58b83b6d" alt="코스피">
             </figure>
             <p>
