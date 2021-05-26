@@ -1,8 +1,16 @@
 <template>
-  <main>
-      <div><h1>주린이들을 위한 주식정보 웹사이트</h1></div>
-      <div><h2>주요 코스닥 정리</h2></div>
-  </main>
+  <div>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">
+          주린이들을 위한 주식 웹사이트입니다!
+        </p>
+        <p class="subtitle">
+          주요 코스피/코스닥 정리
+        </p>
+      </div>
+    </section>
+  </div>
 
 
 </template>
