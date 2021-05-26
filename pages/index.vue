@@ -11,7 +11,7 @@
       </div>
     </section>
     <section class="columns">
-      <div class="column" width="400px" height="400px">
+      <div class="column">
         <article class="message">
           <div class="message-header">
             <p>주요 뉴스</p>
@@ -36,7 +36,7 @@
           </div>
         </article>
       </div>
-      <div class="column" width="400px" height="400px">
+      <div class="column">
         <article class="message">
           <div class="message-header">
             <p>코스피란</p>
