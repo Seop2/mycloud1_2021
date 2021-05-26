@@ -36,6 +36,7 @@
           </div>
         </article>
       </div>
+      <br>
       <div class="column">
         <article class="message">
           <div class="message-header">
