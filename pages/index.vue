@@ -40,8 +40,8 @@
             <table class="table is-striped is-hovable is-fullwidth">
               <thead>
                 <tr>
-                  <th>분류</th>
-                  <th>이름</th>
+                  <th>순위</th>
+                  <th>인기검색</th>
                 </tr>
               </thead>
               <tbody>
@@ -84,8 +84,8 @@
             <table class="table is-striped is-hovable is-fullwidth">
               <thead>
                 <tr>
-                  <th>분류</th>
-                  <th>이름</th>
+                  <th>순위</th>
+                  <th>등락폭</th>
                 </tr>
               </thead>
               <tbody>
