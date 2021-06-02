@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add tables for dog and cat info"
+git commit -m "create stock.vue"
 git push -u origin master
