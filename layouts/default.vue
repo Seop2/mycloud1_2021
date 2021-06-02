@@ -4,7 +4,7 @@
       <ul>
         <li><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp; 홈으로</nuxt-link></li>
         <li>
-          <nuxt-link to = "/stock"><i class="fas fa-file-signature"></i>&nbsp;강냥이 이름</nuxt-link>
+          <nuxt-link to = "/stock"><i class="fas fa-file-signature"></i>&nbsp;주식 트랜드</nuxt-link>
         </li>
       </ul>
       </nav>
