@@ -2,7 +2,10 @@
   <div>
     <nav class="breadcrumb">
       <ul>
-        <li><nuxt-link to="/"><i class="fas fa-home"></i> 홈으로</nuxt-link></li>
+        <li><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp; 홈으로</nuxt-link></li>
+        <li>
+          <nuxt-link to = "/stock"><i class="fas fa-file-signature"></i>&nbsp;강냥이 이름</nuxt-link>
+        </li>
       </ul>
       </nav>
       <nuxt/>
