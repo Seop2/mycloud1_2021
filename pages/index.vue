@@ -36,6 +36,34 @@
   
           </div>
         </article>
+        <article class = "notification">
+            <table class="table is-striped is-hovable is-fullwidth">
+              <thead>
+                <tr>
+                  <th>분류</th>
+                  <th>이름</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>계</td>
+                  <td>동물계<small>(Animalia)</small></td>
+                </tr>
+                <tr>
+                  <td>문</td>
+                  <td>척삭동물문<small>(Animalia)</small></td>
+                </tr>
+                <tr>
+                  <td>강</td>
+                  <td>포유강<small>(Animalia)</small></td>
+                </tr>
+                <tr class="is-selected">
+                  <td>종</td>
+                  <td>늑대<small>(Animalia)</small></td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
       </div>
       
       <div class="column">
@@ -52,6 +80,34 @@
 코스피시장의 가격제한폭은 상하 30%. 코스피시장의 선물시장으로 코스피200 선물이 있으며 이 코스피200 선물 시장은 거래량이나 거래대금으로 볼 때 세계 3~4위의 규모를 자랑한다.[1] 사이드카제도와 서킷브레이커 제도가 시행되고 있다.  
           </div>
         </article>
+          <article class = "notification">
+            <table class="table is-striped is-hovable is-fullwidth">
+              <thead>
+                <tr>
+                  <th>분류</th>
+                  <th>이름</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>계</td>
+                  <td>동물계<small>(Animalia)</small></td>
+                </tr>
+                <tr>
+                  <td>문</td>
+                  <td>척삭동물문<small>(Animalia)</small></td>
+                </tr>
+                <tr>
+                  <td>강</td>
+                  <td>포유강<small>(Animalia)</small></td>
+                </tr>
+                <tr class="is-selected">
+                  <td>종</td>
+                  <td>집고양이<small>(Animalia)</small></td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
       </div>
     </section>
   </div>
