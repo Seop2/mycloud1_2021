@@ -6,6 +6,9 @@
         <li>
           <nuxt-link to = "/stock"><i class="fas fa-file-signature"></i>&nbsp;주식 트랜드</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to = "/stock"><i class="fas fa-file-signature"></i>&nbsp;신규 상장주</nuxt-link>
+        </li>
       </ul>
       </nav>
       <nuxt/>

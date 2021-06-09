@@ -25,13 +25,22 @@
                             <tr :key="pos">
                                 <td>{{pos}}</td>
                                 <td>{{tablestockKospi[pos-1]}}</td>
+                                <td>{{tablekospiprice[pos-1]}}</td>
                             </tr>
                         </template>
                     </tbody>
                 </table>
                 <div class="content">
-                    <span class="tag is-danger">출처</span>
-                    <a href="https://m.stock.naver.com/index.nhn">네이버 증권</a>
+                    <p class="content">
+                        <span class="tag is-danger">출처</span>
+                        <a href="https://m.stock.naver.com/index.nhn">네이버 증권</a>
+                    </p>
+                    <p class="content">
+                        <a class = "button is-primary is-small" href="/stockKospi.json">JSON - 코스피</a>
+                    </p>
+                    <p class="content">
+                        <a class = "button is-primary is-small" href="/kospiprice.json">JSON - 코스피 단일가격</a>
+                    </p>
                 </div>
             </div>
             
@@ -39,13 +48,15 @@
     </div>
 </template>
 <script>
-import stockKospi from "~/assets/stockKospi.json"
-
+import stockKospi from "~/static/stockKospi.json"
+import kospiprice from "~/static/kospiprice.json"
 
 export default{
     data(){
-        return { 
-            tablestockKospi: stockKospi.names
+        return {
+
+            tablestockKospi: stockKospi.names,
+            tablekospiprice: kospiprice.names
          };
          
     }
