@@ -1,4 +1,4 @@
 chcp 65001
 git add --all
-git commit -m "add stock2 page"
+git commit -m "test netlify"
 git push -u origin master
