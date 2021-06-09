@@ -11,12 +11,23 @@
             </div>
         </section>
         <section class="columns">
-            <div class="column"></div>
+            <div class="column">
+            <!--table-->
+            </div>
             <div class="column"></div>
         </section>
-        <div class="content">
-                <span class="tag is-danger">출처</span>
-                <a href="https://m.stock.naver.com/index.nhn">네이버 증권</a>
-        </div>
     </div>
 </template>
+<script>
+    import axios from 'axios';
+    export default {
+        async asyncData(){
+            const dogBreeds = await axios.get('');
+            //alert(object.keys(dogBreeds));
+            return {
+                tableDogBreeds: dogBreeds.data.message,
+                tableDogKeys: object.keys(dogBreeds)
+            }
+        }
+    };
+</script>
