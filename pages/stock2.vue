@@ -3,16 +3,20 @@
         <section class="hero is-warning">
             <div class="hero-body">
                 <p class="title">
-                    <i class="fas fa-chart-bar"></i>신규 상장주
+                    <i class="fas fa-chart-bar"></i>코스닥
                 </p>
                 <p class="subtitle">
-                    최근 상장한 주식들입니다.
+                    다양한 종목의 코스닥을 찾아봅시다.
                 </p>
             </div>
         </section>
         <section class="columns">
             <div class="column">
-            <!--table-->
+                <table class="table">
+                    <thead>
+
+                    </thead>
+                </table>
             </div>
             <div class="column"></div>
         </section>
@@ -22,11 +26,10 @@
     import axios from 'axios';
     export default {
         async asyncData(){
-            const dogBreeds = await axios.get('');
+            const stock2 = await axios.get('');
             //alert(object.keys(dogBreeds));
             return {
-                tableDogBreeds: dogBreeds.data.message,
-                tableDogKeys: object.keys(dogBreeds)
+                
             }
         }
     };

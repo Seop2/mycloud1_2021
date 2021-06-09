@@ -54,7 +54,6 @@ import kospiprice from "~/static/kospiprice.json"
 export default{
     data(){
         return {
-
             tablestockKospi: stockKospi.names,
             tablekospiprice: kospiprice.names
          };

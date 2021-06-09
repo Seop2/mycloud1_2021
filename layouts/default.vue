@@ -4,10 +4,10 @@
       <ul>
         <li><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp; 홈으로</nuxt-link></li>
         <li>
-          <nuxt-link to = "/stock"><i class="fas fa-file-signature"></i>&nbsp;주식 트랜드</nuxt-link>
+          <nuxt-link to = "/stock"><i class="fas fa-file-signature"></i>&nbsp;코스피</nuxt-link>
         </li>
         <li>
-          <nuxt-link to = "/stock2"><i class="far fa-calendar-plus"></i>&nbsp;신규 상장주</nuxt-link>
+          <nuxt-link to = "/stock2"><i class="far fa-calendar-plus"></i>&nbsp;코스닥</nuxt-link>
         </li>
       </ul>
       </nav>

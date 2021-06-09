@@ -3,7 +3,7 @@
 > Nuxt.js project
 # Website Domain Name
 https://www.djmokwon.tk
-
+https://loving-goodall-27d370.netlify.app/
 ## Build Setup
 
 ``` bash
