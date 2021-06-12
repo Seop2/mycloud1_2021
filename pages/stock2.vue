@@ -10,27 +10,49 @@
                 </p>
             </div>
         </section>
-        <section class="columns">
-            <div class="column">
-                <table class="table">
-                    <thead>
-
-                    </thead>
-                </table>
-            </div>
-            <div class="column"></div>
-        </section>
+        
+        <section class="columns"></section>
+        <div class="column">
+            <table class="table">
+                <thead>
+                    <th>번호</th>
+                    <th>종목명</th>
+                    <th>현재가</th>
+                    <th>시가총액(억)</th>
+                </thead>
+                <tbody>
+                    <template v-for="pos in tableStockKeys.length">
+                        <tr :key="pos">
+                            <td>{{pos}}</td>
+                            <td>{{tableStockKeys[pos - 1].stockName}}</td>
+                            <td>{{tableStockKeys[pos - 1].closePrice}}</td>
+                            <td>{{tableStockKeys[pos - 1].marketValue}}</td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+            <div class="content">
+                <p class="tag is-danger">출처</p>
+                <a href="https://m.stock.naver.com/index.html">네이버 증권</a>
+                <a class="button is-primary is-small" href="https://m.stock.naver.com/api/stocks/marketValue/KOSDAQ?page=1&pageSize=20">List all KOSDAQ</a>
+            </div>        
+        </div>
+        <div class="column"></div>
+        
     </div>
 </template>
 <script>
     import axios from 'axios';
     export default {
         async asyncData(){
-            const stock2 = await axios.get('');
-            //alert(object.keys(dogBreeds));
-            return {
-                
-            }
-        }
+            const  stock2 = await axios.get('https://m.stock.naver.com/api/stocks/marketValue/KOSDAQ?page=1&pageSize=20');
+           console.log(Object.keys(stock2))
+            return{
+                tablestock2: stock2.data.stocks,
+                tableStockKeys: Object.keys(stock2.data.stocks)
+            };   
+            
+            
+        },
     };
 </script>
