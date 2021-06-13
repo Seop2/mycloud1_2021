@@ -21,12 +21,12 @@
                     <th>시가총액(억)</th>
                 </thead>
                 <tbody>
-                    <template v-for="pos in tableStockKeys.length">
+                    <template v-for="pos in tablestock2.length">
                         <tr :key="pos">
                             <td>{{pos}}</td>
-                            <td>{{tableStockKeys[pos - 1].stockName}}</td>
-                            <td>{{tableStockKeys[pos - 1].closePrice}}</td>
-                            <td>{{tableStockKeys[pos - 1].marketValue}}</td>
+                            <td>{{tablestock2[pos - 1].stockName}}</td>
+                            <td>{{tablestock2[pos - 1].closePrice}}</td>
+                            <td>{{tablestock2[pos - 1].marketValue}}</td>
                         </tr>
                     </template>
                 </tbody>
