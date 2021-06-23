@@ -17,9 +17,10 @@ module.exports = {
       defer:"",
       src:"https://use.fontawesome.com/releases/v5.15.3/js/all.js"
     }
+    
   ]
   },
-  /*
+  /*    
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
