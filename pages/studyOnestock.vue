@@ -10,6 +10,11 @@
                 </p>
             </div>
         </section>
+        <hr/>
+        <section class="message">
+            <div class="message-header"></div>
+            <div class="message-body"></div>
+        </section>
     </div>
 </template>
 <script>

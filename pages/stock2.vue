@@ -37,7 +37,12 @@
                 <a class="button is-primary is-small" href="https://m.stock.naver.com/api/stocks/marketValue/KOSDAQ?page=1&pageSize=20">List all KOSDAQ</a>
             </div>        
         </div>
-        <div class="column"></div>
+        <div class="column">
+            <article class="message is-primary">
+                <div class="message-header"></div>
+                <div class="message-body"></div>
+            </article>
+        </div>
         
     </div>
 </template>
@@ -46,6 +51,7 @@
     export default {
         async asyncData(){
             const  stock2 = await axios.get('https://m.stock.naver.com/api/stocks/marketValue/KOSDAQ?page=1&pageSize=20');
+            
            console.log(Object.keys(stock2))
             return{
                 tablestock2: stock2.data.stocks,
