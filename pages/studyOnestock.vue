@@ -3,10 +3,10 @@
         <section class="hero is-medium is-link">
             <div class="hero-body">
                 <p class="title">
-                    <i class="fas fa-book-reader"></i>{{stockName}} 기업분석
+                    <i class="fas fa-book-reader"></i> {{ stockName }} 기업분석
                 </p>
                 <p class="subtitle">
-                   {{stockName}} 기업을 분석해봅시다!
+                   {{ stockName }} 기업을 분석해봅시다!
                 </p>
             </div>
         </section>
