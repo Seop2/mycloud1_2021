@@ -13,7 +13,7 @@
           <nuxt-link to = "/stockchart"><i class="far fa-chart-bar"></i>&nbsp;주식 차트 분석</nuxt-link>
         </li>
         <li>
-          <nuxt-link to = "/stockStudy"><i class="fas fa-user-graduate"></i>&nbsp;주식용어공부</nuxt-link>
+          <nuxt-link to = "/stockStudy"><i class="fas fa-user-graduate"></i>&nbsp;주식공부</nuxt-link>
         </li>
       </ul>
       </nav>
