@@ -43,7 +43,7 @@ export default {
 
     methods:{
         submitStockName() {
-            this.$router.push('/studyOnestcok?'+this.stockNameField+'='+this.stockName);
+            this.$router.push('/studyOnestock?'+this.stockNameField+'='+this.stockName);
             
         },
     },
