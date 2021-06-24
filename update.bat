@@ -1,4 +1,4 @@
 chcp 65001
 git add --all
-git commit -m "update the HTML Form processing in studyOnestock.vue"
+git commit -m "add firebaseDB RealTime DB in stockFirebase"
 git push -u origin master

@@ -41,6 +41,10 @@ module.exports = {
         })
       }
     }
-  }
-}
+  },
+  plugins:[{
+    src:"./plugins/FirebaseDB.js"
+  }]
+};
+
 

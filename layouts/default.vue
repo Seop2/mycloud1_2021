@@ -15,6 +15,9 @@
         <li>
           <nuxt-link to = "/stockStudy"><i class="fas fa-user-graduate"></i>&nbsp;주식공부</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to = "/stockFirebase"><i class="fas fa-database"></i>&nbsp;주식 데이터</nuxt-link>
+        </li>
       </ul>
       </nav>
       <nuxt/>

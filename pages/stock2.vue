@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-warning">
+        <section class="hero is-info">
             <div class="hero-body">
                 <p class="title">
                     <i class="fas fa-chart-bar"></i>코스닥

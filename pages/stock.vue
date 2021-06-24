@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-primary">
+        <section class="hero is-link">
             <div class="hero-body">
                 <p class="title">
                     <i class="fas fa-chart-bar"></i>코스피 100
