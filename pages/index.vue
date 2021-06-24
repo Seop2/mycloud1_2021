@@ -1,14 +1,45 @@
 <template>
   <div>
     <section class="hero is-primary">
-      <div class="hero-body">
+      <div class="hero-body" style="float:left">
         <p class="title">
           주린이들을 위한 주식 웹사이트입니다!
         </p>
         <p class="subtitle">
           주요 코스피/코스닥 정리
         </p>
+        <div class="dropdown is-active" style="float:right">
+          <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+              <span>주식 사이트 추천</span>
+              <span class="icon is-small">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+          <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+              <a href="#" class="dropdown-item">
+               사이트1
+              </a>
+              <a class="dropdown-item">
+                사이트2
+              </a>
+              <a href="#" class="dropdown-item is-active">
+               사이트3
+              </a>
+              <a href="#" class="dropdown-item">
+                사이트4
+              </a>
+              <hr class="dropdown-divider">
+              <a href="#" class="dropdown-item">
+                사이트5
+              </a>
       </div>
+  </div>
+</div>
+      </div>
+      
     </section>
     <section class="columns">
       <div class="column">
@@ -73,7 +104,7 @@
           </div>
           <div class="message-body">
             <figure class="image is-128x128">
-              <img src="https://w.namu.la/s/1c7d9de3a8d1f1f43fd9b2fc630327797939b66b35622d37235862747296fd16fb3af0bfd9f2d851b66f3c093c1ece6aca1a504011f06690ee961387b82b4206a0c09888515af10baec60c43e88780c85218fcc1f80931b319222d8e58b83b6d" alt="코스피">
+              <img src="https://dimg.donga.com/wps/NEWS/IMAGE/2021/01/21/105034588.2.jpg" alt="코스피">
             </figure>
               2021년 5월 10일을 기준으로 역사상 최고점인 종가 기준 3249.30를 달성했다. 현재는 약 2100조 원으로 굵직굵직한 기업들은 거의 다 이 코스피시장에 몰려 있다. 삼성전자, LG디스플레이, SK하이닉스, 셀트리온, 현대자동차, 한화그룹, POSCO, 삼성물산, LG전자, KT, 한국전력 등 여기에 올라 있는 대기업 및 준대기업들이 매우 많다.
 
@@ -81,34 +112,36 @@
           </div>
         </article>
           <article class = "notification">
-            <table class="table is-striped is-hovable is-fullwidth">
-              <thead>
-                <tr>
-                  <th>순위</th>
-                  <th>등락폭</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>가온전선<small>+29.87</small></td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>에넥스<small>+29.85</small></td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>쎄미시스코<small>+29.71</small></td>
-                </tr>
-                <tr class="is-selected">
-                  <td>4</td>
-                  <td>노루홀딩스우<small>+24.71</small></td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title">상장공시</p>
+                <p class="subtitle">상장일정안내</p>
+              </article>
+              <article class="tile is-child notification is-warning">
+                <p class="title">토론</p>
+                <p class="subtitle">주식토론방</p>
+              </article>
+            </div>
           </article>
       </div>
     </section>
+    
+    <section class="hero is-small is-link">
+      <div class="hero-body">
+        <p class="title" style="text-align:center">
+          광고 배너
+        </p>
+        <p class="subtitle" style="text-align:center">
+          010-xxxx-xxxx <i class="fas fa-sms"></i>
+        </p>
+      </div>
+    </section>
+    <div class="container is-max-desktop">
+      <div class="notification is-promary">
+        <div class="title">북마크 추가</div>
+        <div class="empty-content">로그인 후 관심있는 기업들을 북마크에 추가하고 한눈에 확인해보세요</div>
+        <div class="empty-content">마이페이지>북마크 메뉴에서 확인할 수 있습니다.</div>
+      </div>
+    </div>
   </div>
 </template>
